@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import png
 
 from string import Template
@@ -33,4 +35,4 @@ for i in range(y):
 
 # Run forever, as all actual code is forked
 while True:
-  time.sleep(60)
+  sleep(60)
