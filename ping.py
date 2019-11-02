@@ -6,8 +6,8 @@ from string import Template
 from os import system
 from time import sleep
 
-xOffset = 250
-yOffset = 600
+xOffset = 400
+yOffset = 100
 address = Template('2001:610:1908:a000:$x:$y:$b$g:$r$a')
 
 f = open('img.png', 'rb')
